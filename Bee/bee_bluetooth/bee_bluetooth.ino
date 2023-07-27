@@ -11,7 +11,7 @@
 SoftwareSerial BTserial = SoftwareSerial(11,12); // RX pin to 12 and TX pin to 11 on the board
 SerialCommand SCmd(BTserial);
 #include <Otto.h>
-Otto Otto;bvnffff
+Otto Otto;
 
 #define LeftLeg 2 
 #define RightLeg 3
